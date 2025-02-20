@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#section-home">Trang chủ</a>
+        <a href="#section5">Liên hệ</a>
+    </nav>
+
+    <section id="section-home" class="section">
+        <h1>Chào mừng đến với Portfolio của Long Nguyễn!</h1>
+        <h3>Đây là nơi tôi chia sẻ dự án và kỹ năng của mình.</h3>
+        <div class="wrapper">
+            <div class="container">
+                <input type="radio" name="slide" id="c1" checked>
+                <label for="c1" class="card">
+                    <button class="see-more">Xem thêm</button>
+                    <div class="row">
+                        <div class="icon">1</div>
+                        <div class="description">
+                            <h4>Artificial Intelligence</h4>
+                            <p>Nhận diện bất thường trong video bằng DeepLearning</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c2">
+                <label for="c2" class="card">
+                    <button class="see-more">Xem thêm</button>
+                    <div class="row">
+                        <div class="icon">2</div>
+                        <div class="description">
+                            <h4>DevOps</h4>
+                            <p>Triển khai CI/CD cho ứng dụng web</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c3">
+                <label for="c3" class="card">
+                    <button class="see-more">Xem thêm</button>
+                    <div class="row">
+                        <div class="icon">3</div>
+                        <div class="description">
+                            <h4>Data Analyst</h4>
+                            <p>Hệ thống gợi ý phim - Thu thập, làm sạch và trực quan hóa dữ liệu</p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c4">
+                <label for="c4" class="card">
+                    <button class="see-more">Xem thêm</button>
+                    <div class="row">
+                        <div class="icon">4</div>
+                        <div class="description">
+                            <h4>Các Sản phẩm khác</h4>
+                            <p>Hệ thống quản lý thư viện, đặt hàng online,...</p>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </section>
+
+    <section id="section1" class="section">
+        <h2>Artificial Intelligence</h2>
+        <p>Đang cập nhật project...</p>
+    </section>
+
+    <section id="section2" class="section">
+        <h2>DevOps</h2>
+        <p>Đang cập nhật project...</p>
+    </section>
+
+    <section id="section3" class="section">
+        <div class="content-wrapper">
+            <div class="content-box">
+                <h2>Movie Recommend System</h2>
+                <p><strong>Dữ liệu sử dụng:</strong> tmdb_5000_movies.csv, tmdb_5000_credits.csv</p>
+                <p><strong>Tiền xử lý dữ liệu:</strong> Loại bỏ dữ liệu trống, Loại bỏ dữ liệu trùng lặp, Chuyển đổi dữ liệu JSON, Xử lý chuỗi,...</p>  
+                <p><strong>Phương pháp phân tích dữ liệu:</strong> Hybrid kết hợp (Content-Based Filtering (Lọc dựa trên nội dung) + Collaborative Filtering (Lọc cộng tác))</p>  
+                <p><strong>Độ đo tương đồng:</strong> Cosine, Ma trận người dùng - phim</p>
+            </div>
+    
+            <div class="image-box">
+                <img id="displayImage" src="./img/da_1.png" alt="Data Analysis">
+            </div>
+        </div>
+    
+        <div class="image-slider">
+            <button onclick="changeImage(1)" class="slider-button">1</button>
+            <button onclick="changeImage(2)" class="slider-button">2</button>
+            <button onclick="changeImage(3)" class="slider-button">3</button>
+            <button onclick="changeImage(4)" class="slider-button">4</button>
+        </div>
+    </section>
+    
+    <section id="section4" class="section">
+        <h2>Các sản phẩm khác</h2>
+        <p>Đang cập nhật project...
+        </p>
+    </section>
+    <section id="section5" class="section">
+        <!-- Ảnh PNG "Thank You" lớn ở giữa -->
+        <div class="thank-image">
+            <img src="img/thank.png" alt="Profile Image">
+        </div>
+
+        <!-- Các icon mạng xã hội -->
+        <div class="social-icons">
+            <a href="https://www.facebook.com/longng2k4ou" target="_blank">
+                <img src="img/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.linkedin.com/in/long-nguy%E1%BB%85n-263b4a269/" target="_blank">
+                <img src="img/linkedin.png" alt="LinkedIn">
+            </a>
+
+            <a href="https://github.com/nguyenlongCS" target="_blank">
+                <img src="img/github.png" alt="GitHub">
+            </a>
+            <a href="mailto:thanhlong86.tt@gmail.com" target="_blank">
+                <img src="img/email.png" alt="Gmail">
+            </a>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
