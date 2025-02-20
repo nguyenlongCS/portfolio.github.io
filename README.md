@@ -1,6 +1,6 @@
 🚀 Portfolio - Nguyễn Long
 
-👉 [Portfolio của Long Nguyễn](https://nguyenlongcs.github.io/portfolio_longnguyen.github.io/)
+👉 [Portfolio của Long Nguyễn](https://nguyenlongcs.github.io/portfolio.github.io/)
 
 ![{824E2448-7BB4-4A4E-A65C-539B7CAD42C5}](https://github.com/user-attachments/assets/9a8f56b2-598c-4a4e-97bb-91a56f0d88f3)
 
